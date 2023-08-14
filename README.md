@@ -32,7 +32,7 @@ AND district NOT LIKE '% %';
 ```sql
 SELECT * 
 FROM sakila.payment
-WHERE payment_date BETWEEN '2005-06-15 00:00:00' AND '2005-06-19 00:00:00'
+WHERE payment_date BETWEEN '2005-06-15 00:00:00' AND '2005-06-18 23:59:59'
 AND amount > 10.00;
 ```
 
